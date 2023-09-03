@@ -10,8 +10,7 @@ html{
     height:100%;
     color:var(--text-color);
     background:var(--base-color);
-    /*Hides banner bar extras*/
-    overflow-x:hidden;
+    font-size:1.2em;
 }
 *{
     padding:0;
@@ -20,49 +19,25 @@ html{
     box-sizing:border-box;
   
   }
-.coming-soon{
+.sub-text{
     margin: auto 5%;
-}
-/*Styling for banner*/
-.banner-slider{
-    padding:1vh;
-    background-color:var(--text-color) !important;
-    text-align:center;
-    color:var(--base-color);
-    display:flex;
-    animation:banner-slider 16s infinite;
-    width:300%;
 }
 .banner{
     text-align:center;
+    background-color:var(--text-color) !important;
+    color:var(--base-color);
     width:100%;
+    height:40px;
+    /*May need to edit this later*/
+    line-height:40px;
 }
-@keyframes banner-slider{
-    0%{
-        transform:translateX(0);
-    }
-    25%{
-        transform:translateX(0);
-    }
-    30%{
-        transform:translateX(-33%);
-    }
-    75%{
-        transform:translateX(-33%);
-    }
-    80%{
-        transform:translateX(-66%);
-    }
-    100%{
-        transform:translateX(-66%);
-    }
-  
-}
+
 /*Styling for header*/
 .colby-logo{
-    max-width:7vh;
-    max-height:7vh;
+    width:35px;
+    height:35px;
     object-fit:fill;
+    z-index:1;
     
 }
 li{
@@ -94,6 +69,8 @@ a{
     }
     .colby-logo{
         margin:3vh 3vh 0 3vh;
+        height:60px;
+        width:60px;
     }
     .nav-item{
         padding:3vh;
@@ -115,12 +92,13 @@ a{
   }
   @media(max-width:700px){
     .navbar{
+        width:90%;
         display:flex;
         justify-content: space-between;
-        height:10vh;
-        padding:2vh 0 2vh 0;
+        height:50px;
+        padding:7.5px 0;
         margin:0 5%;
-        align-items:start;
+        align-content:center;
     
       }
       .bar{
@@ -131,10 +109,11 @@ a{
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
       }
+   
     .hamburger{
         cursor:pointer;
         display:block;
-        z-index:2;
+        z-index:1;
     }
     .hamburger.active .bar:nth-child(2){
       opacity:0;
@@ -157,14 +136,13 @@ a{
         left:0;
         transition:0.3s;
         background-color:var(--primary-color);
-        z-index:1;
+        z-index:2;
       }
       .nav-item:first-of-type{
         margin:10vh 5vh 5vh 5vh;
       }
       .nav-item{
         margin:5vh;
-      
       }
       /* .nav-menu.active{
         left:0;
@@ -175,50 +153,33 @@ a{
 .slider{
     width:90%;
     margin: auto;
-    overflow:hidden;
+
     border: 3px solid var(--primary-color);
 
 }
 .wrapper{
     width:100%;
-    display:flex;
-    animation:slider 16s infinite;
-}
-@keyframes slider{
-    0%{
-        transform:translateX(0);
-    }
-    25%{
-        transform:translateX(0);
-    }
-    30%{
-        transform:translateX(-100%);
-    }
-    50%{
-        transform:translateX(-100%);
-    }
-    55%{
-        transform:translateX(-200%);
-    }
-    75%{
-        transform:translateX(-200%);
-    }
-    80%{
-        transform:translateX(-300%);
-    }
-    100%{
-        transform:translateX(-300%);
-    }
 }
 
 
 .slider img{
     width:100%;
 }
+/* .fade{
+    animation:fade 1.5s;
+}
+@keyframes fade {
+    from {
+        opacity: .4;
+    } 
+    to {
+        opacity: 1;
+    }
+} */
 /*end of styling for photo carousel*/
 /*Styling for main elements*/
 .section-header{
-    margin:auto 5%;
+    margin:5% 5%;
 
     font-size:1.5em;
 }
@@ -282,9 +243,14 @@ input[type="submit"]{
 /*Styling for announcements*/
 
 /*icon styling*/
+
 i{
     color:var(--secondary-color);
     padding:1vw;
+
+}
+.first-icon{
+    padding:1vw 1vw 1vw 0 !important;
 }
 .social-icons{
     margin:5%;
