@@ -91,6 +91,9 @@ a{
     }
   }
   @media(max-width:700px){
+    .banner{
+        font-size:0.8em;
+    }
     .navbar{
         width:90%;
         display:flex;
@@ -124,8 +127,11 @@ a{
     .hamburger.active .bar:nth-child(3){
       transform:translateY(-8px) rotate(-45deg);
     }
-    .nav-menu.active{
+    .nav-menu{
         position:absolute;
+        left:-100%;
+    }
+    .nav-menu.active{
         /*Hides menu from view*/
         top:var(--navbar-height);
         gap:0;
