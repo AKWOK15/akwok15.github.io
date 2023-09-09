@@ -10,8 +10,7 @@ html{
     height:100%;
     color:var(--text-color);
     background:var(--base-color);
-    font-size:1.2em;
-    font-family:Arial ;
+    font-family:"Raleway", sans-serif ;
 }
 *{
     padding:0;
@@ -53,8 +52,16 @@ a{
   }
  
   .nav-link:hover{
-    font-weight:550;
-  }
+        /* text-shadow:
+        1px 1px 0 var(--secondary-color);
+         
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;*/
+        font-weight:600;
+    }
+
   
   @media(min-width:701px){
     .column1{
