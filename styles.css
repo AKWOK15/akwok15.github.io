@@ -53,8 +53,7 @@ a{
   }
  
   .nav-link:hover{
-    /*Increases font size when hovered over*/
-    font-size:1.2rem;
+    font-weight:550;
   }
   
   @media(min-width:701px){
