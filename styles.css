@@ -48,14 +48,7 @@ a{
   }
  
   .nav-link:hover{
-        /* text-shadow:
-        1px 1px 0 var(--secondary-color);
-         
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        -o-transition: all .5s;
-        transition: all .5s;*/
-        font-weight:600;
+        text-decoration:underline;
     }
 
   
@@ -85,6 +78,7 @@ a{
         justify-content:space-evenly;
         align-items:center;
         z-index:1;
+        font-size:1.2em;
         
     }
      /*Controls amount of space logo of college can display in for schedule*/
@@ -161,7 +155,6 @@ a{
 /*styling for photo carousel*/
 .slider{
     width:100%;
-    margin: auto; 
     /*Blends in with background so that desktop view doesn't scrunch box shadow*/
     /* border:3px solid var(--base-color); */
 
@@ -193,7 +186,7 @@ a{
 /*end of styling for photo carousel*/
 /*Styling for main elements*/
 .section-header{
-    margin:5% 5%;
+    margin:5vh 5%;
 
     font-size:1.5em;
 }
@@ -246,7 +239,7 @@ td:nth-child(3){
 .contact-us{
     display:flex;
     width:90%;
-    margin: auto 5%;
+    margin: 0 5%;
     align-content:center;
 }
 
@@ -268,22 +261,22 @@ input[type="submit"]{
 }
 ::placeholder{
     color:var(--text-color);
-    padding:5px;
+    padding:0 0 0 5px;
 }
 /*End of styling for contact us*/
 /*Styling for announcements*/
 
 /*icon styling*/
 
-i{
-    color:var(--secondary-color);
+i:not(.first-icon){
     padding:1vw;
 
 }
-.first-icon{
-    padding:1vw 1vw 1vw 0 !important;
+i{
+    color:var(--secondary-color);
 }
-.social-icons{
-    margin:5%;
+i:not(.icon-menu){
+    margin: 5%;
 
 }
+
