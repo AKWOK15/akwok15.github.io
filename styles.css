@@ -52,10 +52,7 @@ a {
     text-decoration: none;
 }
 
-/* .nav-link:hover {
-    text-decoration: underline;
-    text-decoration-thickness:2px
-} */
+
 /* Styles underlining for menu*/
 .nav-link{
     display:inline-block;
@@ -331,6 +328,7 @@ input[type="submit"] {
 /*icon styling*/
 
 i:not(.first-icon) {
+    /*No padding on left or else when underlining items, it goes too far out*/
     padding: 6px 6px 6px 0;
 
 }
