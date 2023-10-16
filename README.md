@@ -10,5 +10,5 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![JavaScript][JavaScript.com]][JavaScript-url]
 
-[JavaScript.com]:https:https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square
+[JavaScript.com]:https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square
 [JavaScript-url]:https://www.javascript.com
