@@ -1,9 +1,9 @@
-#Colby Club Hockey Website
-#About The Project
+# Colby Club Hockey Website
+# About The Project
 
 
 
-#Built With
+# Built With
 * ![JavaScript][JavaScript.com]
 * ![HTML][HTML.com]
 * ![CSS][CSS.com]
