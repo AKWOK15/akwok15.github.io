@@ -1,1 +1,1 @@
-# akwok15.github.io
+# Colby Club Hockey Website
