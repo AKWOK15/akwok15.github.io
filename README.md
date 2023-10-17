@@ -6,7 +6,7 @@ As a prospective college student, I could not find a way to contact Colby club h
 
 # Built With
 ![JavaScript][JavaScript.com]\
-![HTML][HTML.com]
+![HTML][HTML.com]\
 ![CSS][CSS.com]
 
 [JavaScript.com]:https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square
