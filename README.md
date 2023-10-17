@@ -5,7 +5,7 @@ As a prospective college student, I could not find a way to contact Colby club h
 
 
 # Built With
-![JavaScript][JavaScript.com]
+![JavaScript][JavaScript.com]\
 ![HTML][HTML.com]
 ![CSS][CSS.com]
 
